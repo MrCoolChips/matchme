@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MatchMe</string>
+    <string name="slogan">Parce que votre intuition visuelle est la meilleure des présentations.</string>
+    <string name="btn_create">Créer un compte</string>
+    <string name="login_text">Se connecter</string>
+
+    <string name="title_inscription">Inscription</string>
+    <string name="subtitle_signup">Créez votre compte pour commencer</string>
+    <string name="btn_google">S’inscrire avec Google</string>
+    <string name="or_continue">Ou continuer avec</string>
+    <string name="label_email">Email</string>
+    <string name="hint_email">votre@email.com</string>
+    <string name="label_password">Mot de passe</string>
+    <string name="hint_password">••••••••</string>
+    <string name="password_min">Minimum 6 caractères</string>
+    <string name="label_confirm_password">Confirmer le mot de passe</string>
+    <string name="terms_check">J’accepte les conditions d’utilisation et la politique de confidentialité</string>
+    <string name="btn_create_account">Créer mon compte</string>
+
+    <string name="error_empty_fields">Veuillez remplir tous les champs</string>
+    <string name="error_invalid_email">Format d’email invalide</string>
+    <string name="error_password_match">Les mots de passe ne correspondent pas</string>
+    <string name="error_terms">Veuillez accepter les conditions d’utilisation</string>
+    <string name="signup_success">Inscription réussie ! Bienvenue</string>
+    <string name="back_desc">Retour</string>
+
+    <string name="profile_step_1_3">Étape 1/3</string>
+    <string name="profile_title">Parlez-nous de vous</string>
+    <string name="profile_subtitle">Ces informations aideront les autres à vous connaître</string>
+
+    <string name="cd_profile_photo">Photo de profil</string>
+    <string name="cd_add_photo">Ajouter une photo</string>
+    <string name="profile_add_photo">Ajoutez votre photo</string>
+
+    <string name="profile_label_pseudo_required">Pseudo *</string>
+    <string name="profile_hint_pseudo">jeandupont</string>
+    <string name="profile_pseudo_help">C’est ainsi que les autres vous verront</string>
+
+    <string name="profile_label_birthday_required">Date de naissance *</string>
+    <string name="profile_hint_birthday">jj/mm/aaaa</string>
+
+    <string name="profile_label_gender_required">Genre *</string>
+    <string name="gender_female">Femme</string>
+    <string name="gender_male">Homme</string>
+    <string name="gender_other">Autre</string>
+
+    <string name="profile_label_description_optional">Description (optionnel)</string>
+    <string name="profile_hint_description">Parlez un peu de vous, de vos passions, de ce que vous recherchez...</string>
+    <string name="profile_desc_counter_default">0/300 caractères</string>
+
+    <string name="profile_continue">Continuer -&gt;</string>
+</resources>

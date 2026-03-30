@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FB"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:elevation="2dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_row_back" /> <ImageView
+        android:id="@+id/img_logo_settings"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Paramètres"
+            android:textColor="#1A202C"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Paramètres généraux"
+                android:textColor="#4A5568"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout style="@style/SettingsRowStyle">
+                <TextView style="@style/SettingsTextStyle" android:text="Modifier mes informations" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRowStyle">
+                <TextView style="@style/SettingsTextStyle" android:text="Refaire le questionnaire de profil" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRowStyle">
+                <TextView style="@style/SettingsTextStyle" android:text="Modifier mot de passe" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRowStyle">
+                <TextView style="@style/SettingsTextStyle" android:text="Contacts bloqués" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="16dp"
+                android:text="Compte"
+                android:textColor="#4A5568"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout style="@style/SettingsRowStyle">
+                <TextView style="@style/SettingsTextStyle"
+                    android:text="Supprimer mon compte"
+                    android:textColor="#E53E3E"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRowStyle">
+                <TextView style="@style/SettingsTextStyle" android:text="Se déconnecter" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
